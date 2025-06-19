@@ -1,0 +1,195 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #151312;
+    background-color: #fffaf5;
+}
+
+/** seccion barra navegacion */
+nav {
+    background-color: #252323;
+    padding: 20px 70px;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.icono {
+    margin-right: 50%;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+nav li a {
+    color: #fffaf5;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+nav li a:hover {
+    color: #f4ae2b;
+}
+
+nav img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+/** hero section */
+header {
+    text-align: right;
+    background-image: url("https://images.pexels.com/photos/7524640/pexels-photo-7524640.jpeg");
+    padding: 200px 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 0px 3px 6px #050505;
+}
+
+header h1 {
+    font-size: 49px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/** Seccion Ubicacion */
+#ubicacion {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+#ubicacion img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px #050505;
+}
+
+#ubicacion h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#ubicacion p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+/** Seccion proxima charla */
+#proximas-charlas {
+    background-color: #f4ae2b;
+    padding: 100px 60px;
+    color: #fffaf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#proximas-charlas img {
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px #050505;
+}
+
+.contenido-charla {
+    width: 380px;
+}
+
+.contenido-charla h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contenido-charla h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contenido-charla h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contenido-charla span {
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+/** Seccion eventos pasados */
+#eventos {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+#eventos h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.contenedor-eventos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor-eventos div {
+    width: 450px;
+}
+
+.contenedor-eventos h3 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#eventos img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px #050505;
+}
+
+footer {
+    background-color: #252323;
+    padding: 60px 60px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.5s ease;
+}
+
+footer a:hover {
+    color: #f4ae2b;
+}
+
+footer p {
+    margin-top: 40px;
+    font-size: 20px;
+}
